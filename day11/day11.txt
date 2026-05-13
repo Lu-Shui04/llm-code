@@ -35,7 +35,7 @@ vim a.txt        打开文件
 -----------
 chmod 755 a.txt  设置文件权限（可读可执行）
 chmod +x a.py    给文件加执行权限
-ls -l            第一列就是权限（如 -rwxr-xr-x）
+
 
 五、查找
 -----------
@@ -53,3 +53,6 @@ echo "hello" >> a.txt  把输出追加到文件末尾
 curl 网址              请求一个网址（显示内容）
 wget 网址              下载文件
 ping 域名              测试网络连通性
+
+mkdir,cd,ls,pwd,rm,cat,touch
+
