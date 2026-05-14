@@ -23,7 +23,7 @@ if prompt:
     # 模拟思考
     with st.spinner("正在思考..."):
         time.sleep(2)
-        response = "我正在研发中哦！☺️"
+        response = "小米在开发中，敬请期待！☺️"
 
     # 存入并显示机器人回复
     st.session_state["messages"].append({"role": "assistant", "content": response})
