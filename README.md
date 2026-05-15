@@ -1,13 +1,7 @@
-# 🤖 大模型应用开发 — 从零到就业
+# 🤖 大模型应用开发
 
 <p align="center">
-  <b>普通本科生 · 2026 年 5 月起步 · 5 个月入行 AI 应用开发</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/状态-学习中-brightgreen" alt="状态">
-  <img src="https://img.shields.io/badge/目标-大模型应用开发工程师-blue" alt="目标">
-  <img src="https://img.shields.io/badge/预计到岗-2026.10-orange" alt="到岗">
+  <b>普通本科生 · 热爱大模型方向 · 持续学习中</b>
 </p>
 
 ---
@@ -22,41 +16,40 @@
 | 🧠 RAG | 文档解析 · 文本切块 · 向量嵌入 · 相似度检索 · 知识库问答 |
 | 🤖 Agent | Function Calling · 工具调用 · 多智能体协作 |
 | ⚙️ 后端 & 部署 | FastAPI · Docker · Linux |
-| 🚀 项目 & 面试 | 3 个完整项目 · 简历打磨 · 技术面准备 |
+| 🚀 项目实战 | 3 个完整项目 · 从 Demo 到可上线 |
 
 > 💡 简单的内容快速过，难的内容慢慢啃。不卡进度，卡理解。
 
 ---
 
-## 🛠️ 核心能力
+## 🛠️ 技术栈
 
-### 🔥 主攻方向 —— 大模型应用全栈
+**模型调用**
+`OpenAI SDK` `LangChain` `Ollama` `阿里云百炼`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenAI_SDK-✓-412991?style=for-the-badge&logo=openai" alt="OpenAI">
-  <img src="https://img.shields.io/badge/LangChain-✓-1C3C3C?style=for-the-badge&logo=langchain" alt="LangChain">
-  <img src="https://img.shields.io/badge/Ollama-✓-000000?style=for-the-badge&logo=ollama" alt="Ollama">
-  <img src="https://img.shields.io/badge/Streamlit-✓-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit">
-  <img src="https://img.shields.io/badge/RAG-✓-blue?style=for-the-badge" alt="RAG">
-  <img src="https://img.shields.io/badge/AI_Agent-✓-purple?style=for-the-badge" alt="Agent">
-</p>
+**前端**
+`Streamlit` `HTML` `CSS`
 
-### 🧩 工程能力
+**RAG**
+`文档解析` `文本切块` `向量嵌入` `相似度检索` `知识库问答`
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge" alt="ChromaDB">
-</p>
+**向量数据库**
+`ChromaDB` `FAISS`
+
+**Agent**
+`Function Calling` `工具调用` `多智能体协作`
+
+**后端**
+`FastAPI` `RESTful API`
+
+**编程语言 & 工具**
+`Python` `Git` `Linux` `Docker`
 
 ---
 
 ## 👤 关于我
 
-计算机专业在读。2026 年 5 月开始从零学习大模型应用开发。
+计算机专业在读，从零起步学习大模型应用开发。
 
 驱动力不是培训班、不是焦虑、不是跟风——是真的觉得大模型有意思。一段文字进去，模型能读懂、能推理、能写代码、能回答专业问题，这件事本身就很酷。
 
