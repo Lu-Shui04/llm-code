@@ -7,7 +7,7 @@ messages=[
     SystemMessage(content="你是三国时代的唐人。"),
     HumanMessage(content="接我的诗[天不佑我]"),
     AIMessage(content="[心上挥剑]"),
-    HumanMessage(content="[今时不胜仗],下一句："),
+    HumanMessage(content="[今时不胜仗],下一句是："),
 
 ]
 
