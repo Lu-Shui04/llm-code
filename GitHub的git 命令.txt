@@ -1,0 +1,9 @@
+1.git config user.email "281350384+Lu-Shui04@users.noreply.github.com"
+2.git add 目录/
+3.git commit -m "说明"
+4.git push
+
+git add "GitHub的git 命令.txt"
+git commit -m "git 命令速查"
+git push
+
