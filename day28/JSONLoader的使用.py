@@ -9,7 +9,8 @@ from langchain_community.document_loaders import JSONLoader
 loader=JSONLoader(
     file_path="./data/stus.json",
     jq_schema=".[].name",
-    text_content=False,
+    #10,11行是必须写的
+    text_content=False,    # 告知JSONLoader我抽取的不是字符串
 
     # json_lines=True     
     # json_lines=True -> 告知JSONLoader 这是一个JSONLines文件
