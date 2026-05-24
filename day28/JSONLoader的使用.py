@@ -1,4 +1,3 @@
-from docx import Document
 from langchain_community.document_loaders import JSONLoader
 
 # loader=JSONLoader(
@@ -6,11 +5,12 @@ from langchain_community.document_loaders import JSONLoader
 #     jq_schema=".",  # 抽取语法
 #     text_content=False,  # 告知JSONLoader我抽取的不是字符串
 # )
+
 loader=JSONLoader(
-    file_path="./data/stus.json",
-    jq_schema=".[].name",
+    file_path="./data/stus.json", #文件路径 
+    jq_schema=".[].name",         #jq解析的语法，必填
     #10,11行是必须写的
-    text_content=False,    # 告知JSONLoader我抽取的不是字符串
+    text_content=False,    # 告知JSONLoader我抽取的不是字符串，默认True
 
     # json_lines=True     
     # json_lines=True -> 告知JSONLoader 这是一个JSONLines文件
@@ -20,5 +20,6 @@ loader=JSONLoader(
     # {"name": "王伟", "age": 19, "gender": "男"}
 )
 
-document=loader.load()
+# 批量加载.load  ，懒加载是.lazy_load
+document=loader.load()  
 print(document)
